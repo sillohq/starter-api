@@ -10,7 +10,7 @@ from sillo.config import Config
 class AppConfig(Config):
     """Typed settings for Starter."""
 
-    app_name: str = "Starter API"
+    app_name: str = "Starter"
     app_env: Literal["local", "testing", "staging", "production"] = "local"
     debug: bool = True
     host: str = "127.0.0.1"

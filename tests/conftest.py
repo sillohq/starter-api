@@ -13,8 +13,10 @@ def isolated_environment(monkeypatch: pytest.MonkeyPatch):
     monkeypatch.setenv("APP_ENV", "testing")
     monkeypatch.setenv("DEBUG", "true")
     for name in list(sys.modules):
-        if name == "app" or name.startswith("app.") or (
-            name == "routes" or name.startswith("routes.")
+        if (
+            name == "app"
+            or name.startswith("app.")
+            or (name == "routes" or name.startswith("routes."))
         ):
             sys.modules.pop(name)
     yield

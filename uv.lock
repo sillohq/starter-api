@@ -302,7 +302,7 @@ wheels = [
 
 [[package]]
 name = "sillo-framework"
-version = "1.0.0rc1"
+version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -311,9 +311,9 @@ dependencies = [
     { name = "typing-extensions", marker = "python_full_version < '3.13'" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/97/a4/55106f96e76b69ca81cbeb1b41392d8bff49558caebdbc2e5fc264b19690/sillo_framework-1.0.0rc1.tar.gz", hash = "sha256:14bc886b8ce8a01779087280ab1d299ceb6767a4ddc3bf4511103fdde82087a1", size = 1076455, upload-time = "2026-09-22T05:54:13.584Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f5/6c/9bb50c1ac20bdfc39d04faf646815b6887305b6e31f1905f53584a2418b7/sillo_framework-1.0.0.tar.gz", hash = "sha256:6195d393d73b0acc1054d917118e48ffb81d497363c6051ef4718b0f0d3b8c3a", size = 1085624, upload-time = "2026-09-26T20:35:24.73Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f4/52/51d42b6cd12e3981df102656111dd0441657426b20230610299fac7b0852/sillo_framework-1.0.0rc1-py3-none-any.whl", hash = "sha256:2e546ad49b9fa35092662ff4668e90b976d7519aa7ec28eaba77f57fbdf4c957", size = 786821, upload-time = "2026-09-22T05:54:11.67Z" },
+    { url = "https://files.pythonhosted.org/packages/1c/dd/83af8abfd83c67cb4004068744899f4502ccbccf9c629cd3f365f5eeb7a3/sillo_framework-1.0.0-py3-none-any.whl", hash = "sha256:1a0ae4e2121da3df62045309600ad7f9ca8e325823c187cbaafa8037e6d86ee9", size = 792912, upload-time = "2026-09-26T20:35:22.834Z" },
 ]
 
 [[package]]
@@ -336,7 +336,7 @@ requires-dist = [
     { name = "httpx", marker = "extra == 'dev'", specifier = ">=0.28" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.3" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.8" },
-    { name = "sillo-framework", specifier = ">=1.0.0rc1" },
+    { name = "sillo-framework", specifier = ">=1.0.0" },
 ]
 provides-extras = ["dev"]
 

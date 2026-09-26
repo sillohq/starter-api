@@ -9,7 +9,7 @@ description = "A clean JSON API built with Sillo."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "sillo-framework>=1.0.0rc1",
+    "sillo-framework>=1.0.0",
 ]
 
 [project.optional-dependencies]

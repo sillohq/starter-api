@@ -1,7 +1,5 @@
 """Exercise a running local server without adding an HTTP client dependency."""
 
-from __future__ import annotations
-
 import json
 from urllib.request import urlopen
 
